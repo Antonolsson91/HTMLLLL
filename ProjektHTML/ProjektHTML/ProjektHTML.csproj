@@ -94,6 +94,11 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Media\b6f01ebccaf1d268211bf443603a0bb0.jpg" />
+    <Content Include="Media\frog-1.jpg" />
+    <Content Include="Media\Fun_Facts_Main_Frog.jpg" />
+    <Content Include="Media\Maldive3.mp4" />
+    <Content Include="Media\NeonHeart-EndlessGrace.mp3" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -109,11 +114,16 @@
     <Content Include="index.html" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
+    <Content Include="Sound 2.html" />
+    <Content Include="Sound.html" />
+    <Content Include="Structural HTML5 Elements.html" />
+    <Content Include="Video.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
