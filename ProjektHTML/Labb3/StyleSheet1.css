@@ -14,17 +14,42 @@
     height:70px;
         
 }
+ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+
+}
+li{
+    
+    float:left;
+}
+li a{
+    display:block;
+    text-align:center;   
+    padding:25px;
+    width:150px;
+
+}
+li a:hover{
+    background-color:black;
+}
 #MainContent{
     background-color:blue;
     width:600px;
     height:400px;
+    float:left;
 }
 #Sidebar{
     background-color:brown;
     width:200px;
     height:400px;
+    float:right;
 }
 #Footer{
     background-color:aqua;
     height:100px;
+    clear:both;
 }
+
