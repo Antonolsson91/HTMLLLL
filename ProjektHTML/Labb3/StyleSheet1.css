@@ -1,2 +1,30 @@
-﻿body {
+﻿#Container{
+    width:800px;
+    height:auto;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:15px;
+}
+#Header{
+    background-color:blueviolet;
+    height:150px;
+}
+#Menu{
+    background-color:chartreuse;
+    height:70px;
+        
+}
+#MainContent{
+    background-color:blue;
+    width:600px;
+    height:400px;
+}
+#Sidebar{
+    background-color:brown;
+    width:200px;
+    height:400px;
+}
+#Footer{
+    background-color:aqua;
+    height:100px;
 }
