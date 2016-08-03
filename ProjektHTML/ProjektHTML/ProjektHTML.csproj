@@ -99,6 +99,7 @@
     <Content Include="Media\Fun_Facts_Main_Frog.jpg" />
     <Content Include="Media\Maldive3.mp4" />
     <Content Include="Media\NeonHeart-EndlessGrace.mp3" />
+    <Content Include="Order.html" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
