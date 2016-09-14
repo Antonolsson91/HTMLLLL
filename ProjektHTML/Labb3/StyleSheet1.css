@@ -16,20 +16,38 @@
   margin: auto;
   width: auto;
 }
-nav{
-  height:auto;
-  width: 50px;
-  background-color:#FFE4B5;
-}
-ul{
-
-}
-a{
+.header nav{
+  height:auto;  
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
   
 }
-a:hover{
-  color:blue;
+.header nav ul{
+list-style:none;
+margin:auto;
+
 }
-a:visited{
-  color:grey;
+.header nav ul li{
+ float:left;
+ display:inline;
+ margin: 15px 10px;
+ font-size: 120%;
+}
+.content article{
+  width: 70%;
+  background-color:white;
+  padding: 2px 0px 1px 8px;
+  
+}
+.content heading{
+  font-size: 18px;
+  color:#696969
+}
+.mainContent aside{
+  background-color:#FDF5E6;
+  border-radius: 5px;
+  height: auto;
+  width: 15%;
+  
 }
