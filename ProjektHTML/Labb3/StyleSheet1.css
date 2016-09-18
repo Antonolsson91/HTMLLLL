@@ -36,8 +36,9 @@ margin:auto;
  margin: 15px 20px;
  font-size: 120%;
 }
+
 .content article{
-  width: 70%;
+  width: auto;
   background-color:white;
   padding: 20px 0px 1px 8px;
   border-radius:5px;
@@ -50,24 +51,7 @@ margin:auto;
   font-size: 18px;
   color:#696969
 }
-.topSideBar{
-  background-color:white;
-  border-radius: 5px;
-  width: 25%;
-  padding:5px 1px 1px 8px;
-  border-radius:5px;
-  float:right;
-  margin:5px;
-}
-.bottomSideBar{
-  background-color:white;
-  border-radius: 5px;
-  width: 25%;
-  padding:5px 1px 1px 8px;
-  border-radius:5px;
-  float:right;
-  margin:5px;
-}
+
 .footer{
   width:auto;
   height: 35px;
@@ -75,4 +59,15 @@ margin:auto;
   background-color:#F08080;
   border-radius:5px;
   clear:both;
+  padding:2px;
+}
+
+@media screen and (min-width:481px) and (max-width:768px){
+body{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 100%;
+    background-color:blueviolet;
+
+}
+    
 }
