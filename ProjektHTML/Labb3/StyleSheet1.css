@@ -33,8 +33,10 @@ margin:auto;
 .header nav ul li{
  float:left;
  display:inline;
- margin: 15px 20px;
+ text-align:center;
  font-size: 120%;
+ margin: 9px;
+ text-decoration:none;
 }
 .header nav ul li a :hover {
     background-color:aqua;
@@ -64,6 +66,12 @@ margin:auto;
   clear:both;
   padding:2px;
 }
+.image{
+    width: 120px;
+    height: 90px;
+    margin: 5px;
+    float:left;
+}
 
 @media screen and (min-width:481px) and (max-width:768px){
 body{
@@ -76,6 +84,10 @@ body{
         margin:auto;
         width:80%;
         clear:both;
+    }
+    .image{
+        width:100px;
+        height:70px;
     }
 }
 @media screen and (max-width:480px){
@@ -103,5 +115,9 @@ body{
     margin:auto;
     text-align:center;
     
+}
+.image{
+    width:140px;
+    height:100px;
 }
 }

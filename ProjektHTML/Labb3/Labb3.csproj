@@ -112,7 +112,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Products.html" />
-    <Content Include="ResponsiveSite.html" />
+    <Content Include="index.html" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="StyleSheet1.css" />
