@@ -36,10 +36,10 @@ margin:auto;
  text-align:center;
  font-size: 120%;
  margin: 9px;
- text-decoration:none;
+ 
 }
-.header nav ul li a :hover {
-    background-color:aqua;
+.header nav ul li a  {
+   text-decoration:none;
 }
 
 .content article{
@@ -52,7 +52,7 @@ margin:auto;
   
   
 }
-.content heading{
+.content h2{
   font-size: 18px;
   color:#696969
 }
@@ -70,7 +70,13 @@ margin:auto;
     width: 120px;
     height: 90px;
     margin: 5px;
-    float:left;
+    
+    
+}
+h2{
+    text-shadow:5px 5px 10px;
+    color:blue;
+
 }
 
 @media screen and (min-width:481px) and (max-width:768px){
@@ -88,6 +94,10 @@ body{
     .image{
         width:100px;
         height:70px;
+    }
+   h2{
+        font-size:220%;
+        text-shadow:none;
     }
 }
 @media screen and (max-width:480px){
@@ -119,5 +129,9 @@ body{
 .image{
     width:140px;
     height:100px;
+}
+h2{
+    color:red;
+    font-size:2em;
 }
 }
