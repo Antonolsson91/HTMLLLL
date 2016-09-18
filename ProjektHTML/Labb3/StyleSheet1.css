@@ -19,7 +19,7 @@
   border-radius:5px;
 }
 .header nav{
-  height:auto;  
+  height:40px;  
   border-radius: 5px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -69,5 +69,36 @@ body{
     background-color:blueviolet;
 
 }
+    .body{
+        margin:auto;
+        width:80%;
+        clear:both;
+    }
+}
+@media screen and (max-width:480px){
+body{
+    font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-size:100%;
+    background-color:cadetblue;
+}
+.body{
+    margin:auto;
+    width:90%;
+    clear:both;
+}
+.header{
+    height: 150px;
+}
+.header nav ul{
+    padding-left:0;
+}
+.header nav ul li{
     
+    width:100%;
+    display: inline;
+    height: 40px;
+    margin:auto;
+    text-align:center;
+    
+}
 }
