@@ -36,6 +36,9 @@ margin:auto;
  margin: 15px 20px;
  font-size: 120%;
 }
+.header nav ul li a :hover {
+    background-color:aqua;
+}
 
 .content article{
   width: auto;
