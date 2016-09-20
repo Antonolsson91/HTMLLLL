@@ -96,6 +96,7 @@
   <ItemGroup>
     <Content Include="Categories.html" />
     <Content Include="Contact.html" />
+    <Content Include="IPhone.css" />
     <Content Include="Media\frog.jpg" />
     <Content Include="Media\frog2.jpg" />
     <Content Include="Media\frog3.jpg" />
