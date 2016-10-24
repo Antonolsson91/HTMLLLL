@@ -28,6 +28,5 @@ C:\Users\Arnstad\Source\Repos\HTMLLLL\ProjektHTML\Labb4\bin\Microsoft.AI.Web.xml
 C:\Users\Arnstad\Source\Repos\HTMLLLL\ProjektHTML\Labb4\bin\Microsoft.AI.WindowsServer.xml
 C:\Users\Arnstad\Source\Repos\HTMLLLL\ProjektHTML\Labb4\bin\Microsoft.ApplicationInsights.xml
 C:\Users\Arnstad\Source\Repos\HTMLLLL\ProjektHTML\Labb4\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Arnstad\Source\Repos\HTMLLLL\ProjektHTML\Labb4\obj\Debug\Labb4.csprojResolveAssemblyReference.cache
 C:\Users\Arnstad\Source\Repos\HTMLLLL\ProjektHTML\Labb4\obj\Debug\Labb4.dll
 C:\Users\Arnstad\Source\Repos\HTMLLLL\ProjektHTML\Labb4\obj\Debug\Labb4.pdb
