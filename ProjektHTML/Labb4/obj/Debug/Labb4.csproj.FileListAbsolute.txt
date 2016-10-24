@@ -30,3 +30,4 @@ C:\Users\Arnstad\Source\Repos\HTMLLLL\ProjektHTML\Labb4\bin\Microsoft.Applicatio
 C:\Users\Arnstad\Source\Repos\HTMLLLL\ProjektHTML\Labb4\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\Arnstad\Source\Repos\HTMLLLL\ProjektHTML\Labb4\obj\Debug\Labb4.dll
 C:\Users\Arnstad\Source\Repos\HTMLLLL\ProjektHTML\Labb4\obj\Debug\Labb4.pdb
+C:\Users\Arnstad\Source\Repos\HTMLLLL\ProjektHTML\Labb4\obj\Debug\Labb4.csprojResolveAssemblyReference.cache

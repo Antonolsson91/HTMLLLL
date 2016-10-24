@@ -1,0 +1,3 @@
+﻿.thumbnail:hover {
+    transform: rotateY(180deg) rotateX(-360deg) rotateZ(3deg);
+}
