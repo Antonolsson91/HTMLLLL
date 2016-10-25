@@ -106,6 +106,7 @@
     <Content Include="Images\7.jpg" />
     <Content Include="Images\8.jpg" />
     <Content Include="Images\9.jpg" />
+    <Content Include="Images\Image.png" />
     <Content Include="Index.html" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
@@ -143,7 +144,7 @@
     <Content Include="Sitepages\Contact.html" />
     <Content Include="Sitepages\Gallery.html" />
     <Content Include="Sitepages\Game.html" />
-    <Content Include="Sitepages\Links.html" />
+    <Content Include="Sitepages\Staff.html" />
     <Content Include="Sitepages\Review.html" />
     <Content Include="Sitepages\Video.html" />
     <Content Include="Styles\StyleSheet1.css" />
