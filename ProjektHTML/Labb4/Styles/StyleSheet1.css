@@ -1,3 +1,42 @@
 ﻿.thumbnail:hover {
     transform: rotateY(180deg) rotateX(-360deg) rotateZ(3deg);
 }
+/*.topRow{
+    display:inline-block;
+    margin:0 auto;
+    width:40%;
+    overflow:hidden;
+}
+.botRow{
+     display:inline-block;
+    margin:0 auto;
+    width:40%;
+    overflow:hidden;
+}
+a.topRow{
+    width:50%;
+}
+a.botRow{
+    width:50%;
+}
+.topRow img{
+    max-width:100%;
+    height:auto;
+}
+.botRow img{
+    max-width:100%;
+    height:auto;
+}*/
+body{
+    background-color:cornflowerblue;
+}
+.indexContent{
+    width:50%;
+    float:left;
+    text-align:center;
+    overflow:hidden;
+}
+.indexContent img{
+    max-width:100%;
+    height:auto;
+}
