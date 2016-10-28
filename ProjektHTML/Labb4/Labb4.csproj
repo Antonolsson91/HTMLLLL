@@ -106,11 +106,13 @@
     <Content Include="Images\7.jpg" />
     <Content Include="Images\8.jpg" />
     <Content Include="Images\9.jpg" />
+    <Content Include="Images\background.jpg" />
     <Content Include="Images\Image.png" />
     <Content Include="Images\index1.jpg" />
     <Content Include="Images\index2.jpg" />
     <Content Include="Images\index3.jpg" />
     <Content Include="Images\index4.jpg" />
+    <Content Include="Images\TV.png" />
     <Content Include="Index.html" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">

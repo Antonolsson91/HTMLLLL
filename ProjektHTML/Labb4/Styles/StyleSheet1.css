@@ -1,42 +1,52 @@
-﻿.thumbnail:hover {
+﻿body {
+  /* Location of the image */
+  background-image: url('../Images/background.jpg');
+  
+  /* Image is centered vertically and horizontally at all times */
+  background-position: center center;
+  
+  /* Image doesn't repeat */
+  background-repeat: no-repeat;
+  
+  /* Makes the image fixed in the viewport so that it doesn't move when 
+     the content height is greater than the image height */
+  background-attachment: fixed;
+  
+  /* This is what makes the background image rescale based on its container's size */
+  background-size:cover;
+  
+  /* Pick a solid background color that will be displayed while the background image is loading */
+  background-color:#464646;
+  
+  /* SHORTHAND CSS NOTATION
+   * background: url(background-photo.jpg) center center cover no-repeat fixed;
+   */
+}
+.thumbnail:hover {
     transform: rotateY(180deg) rotateX(-360deg) rotateZ(3deg);
 }
-/*.topRow{
-    display:inline-block;
-    margin:0 auto;
-    width:40%;
-    overflow:hidden;
-}
-.botRow{
-     display:inline-block;
-    margin:0 auto;
-    width:40%;
-    overflow:hidden;
-}
-a.topRow{
-    width:50%;
-}
-a.botRow{
-    width:50%;
-}
-.topRow img{
-    max-width:100%;
-    height:auto;
-}
-.botRow img{
-    max-width:100%;
-    height:auto;
-}*/
-body{
-    background-color:cornflowerblue;
-}
-.indexContent{
-    width:50%;
+.one img {
+   
     float:left;
-    text-align:center;
-    overflow:hidden;
-}
-.indexContent img{
-    max-width:100%;
+     max-width:100%;
     height:auto;
+}
+.two img {
+ 
+    float:right;
+     max-width:100%;
+    height:auto;
+}
+.no-padding{
+    margin:0 !important;
+    padding:0 !important;
+}
+.container-fluid{
+    margin-left:0;
+    margin-right:0;
+}
+html,body{
+    margin-left:0;
+    margin-right:0;
+    
 }
