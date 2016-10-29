@@ -21,6 +21,7 @@
   /* SHORTHAND CSS NOTATION
    * background: url(background-photo.jpg) center center cover no-repeat fixed;
    */
+  font-family: 'Luckiest Guy', cursive;
 }
 .thumbnail:hover {
     transform: rotateY(180deg) rotateX(-360deg) rotateZ(3deg);
@@ -57,14 +58,15 @@ aside{
   margin:0 auto;
  
 }
-    aside p {
+aside h2 {
         margin: 0;
         font-weight: bold;
-        color: #000000;
+        color: floralwhite;
         height: 80px;
         text-align: center;
-        background-color: #ffffff;
-        border: 1px solid black;
+        position:relative;
+        top:30px;
+        
         opacity: 1.0;
     }
 .row{
@@ -76,4 +78,28 @@ aside{
 }
 #right-aside{
     padding-left:0px;
+}
+.image:after{
+     content:'\A';
+    position:absolute;
+    width:100%; height:100%;
+    top:0; left:0;
+    background:rgba(0,0,0,0.6);
+    opacity:1;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+.image:hover:after{
+    opacity:0;
+}
+figcaption{
+    position:absolute;
+    bottom:250px;
+    left:400px;
+    font-size: 40px;
+    color:floralwhite;
+
+}
+.panel-footer{
+    height:30px;
 }
