@@ -4,7 +4,7 @@
 });
 
 function draw() {
-    var canvas = document.getElementById('Canvas1');
+    var canvas = document.getElementById('myCanvas');
     var ctx = canvas.getContext('2d')
 
 
