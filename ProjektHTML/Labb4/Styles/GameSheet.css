@@ -175,3 +175,25 @@
     position: absolute;
     width: 265px;
 }
+.murray {
+ 
+    background-image: url('../Images/Murray.png');
+    height: 162px;
+    position: absolute;
+    width: 300px;
+    animation-delay:1s !important;
+}
+.fish {
+    background-image: url('../Images/stonefish.png');
+    height: 200px;
+    position: absolute;
+    width: 200px;
+    animation-delay:2s !important;
+}
+/*.shark {
+    background-image: url('../Images/nurseshark.png');
+    height: 200px;
+    position: absolute;
+    width: 265px;
+    animation-delay:3s !important;
+}*/
