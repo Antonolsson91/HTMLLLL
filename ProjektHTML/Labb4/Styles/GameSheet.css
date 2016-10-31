@@ -155,45 +155,73 @@
     top: 0;
   }
 }
+@keyframes murrayslide{
+    0% {
+    left: 450px;
+    top: 0;
+  }
+  25%{
+      left:150px;
+      top:300px;
+  }
+  50% {
+    left: 450px;
+    top: 500px;
+  }
+  75%{
+      left:600px;
+      top:300px;
+  }
+  100% {
+    left: 450px;
+    top: 0;
+  }
+}
+
 .canvas {
   background-image: url('../Images/akvarium.png');
   border-radius: 10px;
   border:groove 5px black;
   position: relative;
+  left:450px;
   max-width: 1000px;
   height:664px;
 }
-.canvas:hover .img {
-  animation: slide 2s ease-in-out .5s infinite alternate;
-}
-.canvas:active .img {
-  animation-play-state: paused;
-}
+
 .diver {
     background-image: url('../Images/diver.png');
     height: 200px;
     position: absolute;
     width: 265px;
+    animation: slide 5s linear .5s infinite alternate;
 }
-.murray {
- 
+#murray {
     background-image: url('../Images/Murray.png');
     height: 162px;
     position: absolute;
     width: 300px;
-    animation-delay:1s !important;
+    animation: murrayslide 3s linear .5s infinite normal;
 }
+
 .fish {
     background-image: url('../Images/stonefish.png');
     height: 200px;
     position: absolute;
     width: 200px;
-    animation-delay:2s !important;
+    
+    animation: slide 3s ease-in-out .5s infinite alternate;
 }
-/*.shark {
+.shark {
     background-image: url('../Images/nurseshark.png');
-    height: 200px;
+    height: 132px;
     position: absolute;
-    width: 265px;
-    animation-delay:3s !important;
-}*/
+    width: 300px;
+    
+    animation: slide 4s ease-out .5s infinite alternate;
+}
+
+}
+.radio {
+    display: inline-block;
+    width: auto;
+}
