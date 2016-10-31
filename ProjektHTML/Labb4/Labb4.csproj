@@ -163,6 +163,7 @@
     <Content Include="Sitepages\Staff.html" />
     <Content Include="Sitepages\Review.html" />
     <Content Include="Sitepages\Video.html" />
+    <Content Include="Sound\Ocean_Waves-Mike_Koenig-980635527 %282%29.mp3" />
     <Content Include="Styles\GameSheet.css" />
     <Content Include="Styles\StyleSheet1.css" />
     <Content Include="Web.config" />
