@@ -43,20 +43,21 @@
             </div><!-- /.container-fluid -->
         </nav>
     </header>
+    <div class="container-fluid">
+        <div class="canvas">
+            <figure class="diver"></figure>
+            <figure id="murray" class="img murray"></figure>
+            <figure class="shark"></figure>
+            <figure class="fish"></figure>
 
-    <div class="canvas">
-        <figure class="diver"></figure>
-        <figure id="murray" class="img murray"></figure>
-        <figure class="shark"></figure>
-        <figure class="fish"></figure>
-       
+        </div>
+        <div class="gameDiv">
+            <input onclick="normalDirection('murray')" type="radio" name="mButton" value="1" id="r1" class="rbtn" />
+            <label class="radio" for="r1">Check for clockwise</label>
+            <input onclick="reverseDirection('murray')" type="radio" name="mButton" value="2" id="r2" class="rbtn" />
+            <label class="radio" for="r2"> Check for Anti clockwise</label>
+        </div>
     </div>
-    <input onclick="normalDirection('murray')" type="radio" name="mButton" value="1" id="r1" class="rbtn" />
-    <label class="radio" for="r1"></label>
-    <input onclick="reverseDirection('murray')"type="radio" name="mButton" value="2" id="r2"class="rbtn"  />
-    <label class="radio" for="r2"></label>
-
-   
     <div class="panel-footer"></div>
 </body>
 </html>

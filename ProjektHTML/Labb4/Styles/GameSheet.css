@@ -225,3 +225,19 @@
     display: inline-block;
     width: auto;
 }
+.gameDiv{
+    background:black;
+    opacity:1;
+    width:664px;
+    margin:0 auto;
+    height:400px;
+    border-radius:15px;
+
+}
+.gameDiv input{
+    margin:0 auto;
+}
+.gameDiv input,label{
+    display:inline-block;
+    font-size:2em;
+}

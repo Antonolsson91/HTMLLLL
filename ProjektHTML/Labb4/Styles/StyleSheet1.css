@@ -65,6 +65,7 @@ aside h2 {
         position:relative;
         top:70px;        
         opacity: 1.0;
+        text-decoration:none;
     }
 h2{
       position:absolute;
@@ -75,6 +76,7 @@ h2{
       text-align:center;
       font-weight: bold;
       color: floralwhite;
+      
 }
 .row{
         margin-left:0px !important;
@@ -104,6 +106,9 @@ h2{
 .image:hover:after{
     opacity:0;
 }
+.image h2:hover{
+    text-decoration:none;
+}
 .one figure figcaption{
   
     font-size: 40px;
@@ -113,7 +118,7 @@ h2{
 
 }
 .panel-footer{
-    height:130px;
+    height:60px;
     margin-bottom:0;
 }
 .myForm{
@@ -122,6 +127,8 @@ h2{
     background:rgba(0,0,0,0.6);
     opacity:1;
     margin:10px auto;
+    height:900px;
+    border-radius:15px;
     
 }
 .myForm fieldset{
@@ -204,4 +211,27 @@ h2{
 }
 #bodyWrap{
     min-height:100% !important;
+}
+.pVideo{
+    height:auto;
+    background:black;
+     background:black;
+    opacity:0.8;
+    margin-bottom:14px;
+    margin-top:4px;
+    color:floralwhite;
+    border-radius:15px;
+}
+.pVideo h3{
+   padding:15px;
+    font-size:2em;
+    
+}
+.pVideo p{
+    font-size:24px;
+    padding:15px;
+}
+.page-header {
+    color:floralwhite;
+    font-size:2.4em;
 }
